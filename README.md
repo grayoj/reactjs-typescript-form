@@ -1,6 +1,6 @@
 # React Form with Formik, Material UI
 
-This project built with [Create React App](https://github.com/facebook/create-react-app), and is written in TypeScript.
+This project was built with [Create React App](https://github.com/facebook/create-react-app), and is written in TypeScript.
 I chose TypeScript as the my preferable language for creating the project by running:
 
 ```> yarn create react-app my-app --template typescript```
