@@ -42,15 +42,7 @@ export const TsForm: React.FC<Props> = ({onSubmit}) => {
         onBlur={handleBlur}
         />
         </div>
-        <div> 
-        <TextField
-        placeholder="Enter your Full Name"
-        name="fullName"
-        value={values.fullName}
-        onChange={handleChange}
-        onBlur={handleBlur}
-        />
-        </div>
+      
         <Button style={{color: 'blue'}} type="submit">Submit Form</Button>
     </Form>
     )}
