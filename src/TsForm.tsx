@@ -1,7 +1,8 @@
 // Import React
-
-import {TextField, Button} from '@material-ui/core';
 import * as React from 'react';
+
+// Formik and Material UI
+import {TextField, Button} from '@material-ui/core';
 import {Formik, Form} from 'formik'
 
 // Interface Props
@@ -41,7 +42,16 @@ export const TsForm: React.FC<Props> = ({onSubmit}) => {
         onBlur={handleBlur}
         />
         </div>
-        <Button style={{color: 'green'}} type="submit">Post</Button>
+        <div> 
+        <TextField
+        placeholder="Enter your Full Name"
+        name="fullName"
+        value={values.fullName}
+        onChange={handleChange}
+        onBlur={handleBlur}
+        />
+        </div>
+        <Button style={{color: 'blue'}} type="submit">Submit Form</Button>
     </Form>
     )}
     </Formik>
